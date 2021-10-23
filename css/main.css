@@ -1,0 +1,206 @@
+/***** BASE STYLES *****/
+body{
+  font-family:'Montserrat', sans-serif;
+}
+
+@font-face {
+font-family: 'Wisdom Script Regular';
+font-style: normal;
+font-weight: normal;
+src: url('Wisdom Script AJ.woff') format('woff');
+}
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+  }
+
+.half-width {
+  width: 600px;
+  float: left;
+  }
+
+.third-width {
+    width: 349px;
+    float: left;
+    margin-right: 50px;
+}
+
+/*****HEADER*****/
+/*title*/
+header h1{
+    color:#000000;
+    font-family:'Montserrat', sans-serif;
+    padding: 65px 0 65px 25px;
+    font-size: 30px;
+}
+header h1 span {
+  color:#77a466;
+ }
+
+ul{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+li {
+  display:inline-block;
+  margin-right:1px;
+}
+nav {
+    float: right;
+    padding: 75px 2px;
+    margin right:30px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #77a466;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration:none;
+}
+
+nav ul li {
+  color: #77a466;
+  font-size: 14px;
+  text-transform: capitalize;
+  text-decoration:none;
+  padding-left: 30px;
+}
+/***** about section*****/
+
+#top .full-width {
+  padding:80px 0;
+}
+
+img {
+    border-top: 5px solid #77a466;
+    border-bottom: 5px solid #77a466;
+}
+
+/*welcome to our...*/
+.about h2{
+    color: #77a466;
+    font-family:'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+    text-transform: capitalize;
+    width:1000px;
+    text-align: left;
+}
+
+.about p {
+  font-family:'Montserrat', sans-serif;
+  font-size:16px;
+  line-height:40px;
+  padding-left:47px;
+  padding-right:56px;
+  text-align: left;
+}
+
+.about {
+  border-bottom: 1px solid black;
+}
+
+/***** menu*****/
+#bottom .full-width {
+  border-top: 1px solid black;
+  width:1200px;
+}
+
+.third-width {
+  padding: 10px 0;
+}
+
+.menu {
+  margin-left: 40px;
+  border-right: 1px solid black;
+  height: 235px;
+  text-align: left;
+}
+
+.menu h3 {
+  font-family:'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  line-height:50px;
+}
+
+.menu p {
+  color: #77a466;
+  font-family:'Montserrat', sans-serif;
+  font-size:16px;
+  line-height:14px;
+}
+/*****Reviews*****/
+
+.third-width {
+  padding: 10px 0;
+}
+
+.reviews {
+  border-right: 1px solid black;
+  height: 235px;
+  }
+
+.reviews h3 {
+  font-family:'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  line-height:50px;
+}
+
+.reviews p {
+  font-family:'Montserrat', sans-serif;
+  font-size:16px;
+  line-height:20px;
+}
+
+/*****contact*****/
+
+.contact .third-width {
+  padding: 10px 0;
+}
+
+.contact h3 {
+  font-family:'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  line-height:14px;
+  line-height: 20px
+}
+
+.contact p {
+    font-family:'Montserrat', sans-serif;
+    font-size:16px;
+    line-height:30px;
+  }
+
+
+  /*****footer*****/
+#footer .full-width {
+  padding:80px 0;
+}
+
+.endnote {
+  border-top: 1px solid black;
+  width: 1200px;
+}
+
+.endnote h2{
+    text-align: center;
+  }
+
+.endnote h2 span{
+      font-family:'Wisdom Script Regular';
+      color:#77a466
+  }
